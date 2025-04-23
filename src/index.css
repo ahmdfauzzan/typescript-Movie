@@ -188,8 +188,8 @@ button:focus-visible {
 
 @import "tailwindcss";
 @plugin "flyonui";
-@import 'flyonui/variants.css'; /* ✅ Lebih benar */
+@import 'flyonui/variants.css'; 
 
-/* If you gitignored node_modules use below method */
-@source "./node_modules/flyonui/dist/index.js"; /* Require only if you want to use FlyonUI JS component */
+
+@source "./node_modules/flyonui/dist/index.js"; 
 @source "./node_modules/flyonui/dist/accordion.js"; 

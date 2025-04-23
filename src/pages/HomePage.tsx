@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "@/components/navbar";
 import { useMoviePlaying } from "@/services/MoviePlaying";
 import CardMovie from "@/components/CardMovie";
